@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=1 python main.py -O --text "an astronaut, full body" --workspace results/trial_astronaut --iters 5000
+CUDA_VISIBLE_DEVICES=1 python main.py -O --text "an astronaut, full body" --workspace results/trial2_astronaut --dmtet --iters 5000 --init_with results/trial_astronaut/checkpoints/df.pth
